@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new3.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="apply_box">
+   
+
+   <h1 align="center"> Job Application</h1> 
+   <form id="f">
+    <div class="form_container">
+    <div class="form_control">
+    <label for="firstname"><b>First Name</b></label>
+    <input type="text" id="firstname" placeholder="enter first name" required>
+    </div>
+
+<div class="form_control">
+    <label for="lastname"><b>Last Name</b></label>
+    <input type="text" id="lasttname" placeholder="enter last name" required>
+</div>
+
+<div class="form_control">
+        <label for="email"> <br><b>Email</b><br> </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Email..."/>
+        </div>
+
+        <div class="form_control">  
+    <label for="job"><br><b>Job Role</b><br></label>
+    <select id="job" name="job name">
+        <option> none</option>
+        <option>student</option>
+        <option> web developer</option>
+        <option> data scientist </option>
+        <option> game developer</option>
+        <option> app developer</option>
+      </select>
+    </div>
+
+    
+    <div class="textarea_control">
+        <label for="address"> Address </label>
+        <textarea
+          id="address"
+          name="address"
+          row="4"
+          cols="50"
+          placeholder="Enter Address"
+        ></textarea>
+      </div>
+
+    <div class="form_control">
+    <label for="city"><br><b>City</b><br></label>
+    <input type="text" id="city" placeholder="enter city name" required>
+</div>
+
+<div class="form_control">
+   <label for="pin"><br><b>Pincode</b><br></label>
+    <input type="number" id="pin" placeholder="enter pin code" required maxlength="6">
+</div>
+
+<div class="form_control">
+    <label for="date"><br><b>Start Date</b><br></label>
+    <input type="date" id="date" placeholder="Enter start date" required>
+</div>
+
+<div class="form_control">
+   <label for="cvv"><br><b>Upload CVV</b><br></label>
+    <input type="file" id="cvv" placeholder="CHOOSE FILE" required>
+</div>
+</div>
+
+    <div class="button_container">
+        <button type="submit">Apply Now</button>
+      </div>
+   </form>
+</div>
+
+</body>
+</html>
